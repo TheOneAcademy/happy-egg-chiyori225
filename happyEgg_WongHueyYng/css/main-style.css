@@ -1,0 +1,177 @@
+@font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.eot?97409405');
+    src: url('../font/fontello.eot?97409405#iefix') format('embedded-opentype'),
+         url('../font/fontello.woff2?97409405') format('woff2'),
+         url('../font/fontello.woff?97409405') format('woff'),
+         url('../font/fontello.ttf?97409405') format('truetype'),
+         url('../font/fontello.svg?97409405#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body
+  {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 4.5vw;
+    line-height: 0.9em;
+    color: #2c3e50;
+    text-rendering: geometricPrecision;
+    background: #f6f0e8;
+  }
+
+  a, a:active, a:visited, a:focus {
+    text-decoration: none;
+    color: white;
+}
+.logo img {
+    width: 14vw;
+}
+
+
+
+.find-eggs
+{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+
+    height: 45px;
+    background: orange;
+}
+
+.find-eggs-text 
+{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.find-eggs-text i 
+{
+    font-family: "fontello";
+    font-style: normal;
+    
+    margin-right: 10px;
+}
+
+.banner
+{
+
+    background-image: url(../images/header-bg-1.svg), url(../images/header-bg-2.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100% auto, auto 100%;
+    background-position: -135px -5px, center center;
+}
+
+.banner-title 
+{
+    flex-direction: column;
+    justify-content: center;
+}
+.banner-title img 
+{
+    width: 50%;
+    margin: 10px 0 15px 0;
+}
+
+.banner h1 
+{
+    font-family: 'Boogaloo', cursive;
+    font-size: 24vw;
+    line-height: 0.9em;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    color: #fcb048;
+}
+.banner h3 {
+    width: 60vw;
+    font-size: 4.5vw;
+    font-weight: 700;
+    color: #244f48;
+}
+
+.welcome {
+    background: url(../images/welcome-bg.png) left 2px / 100% auto no-repeat;
+}
+h2 {
+    font-family: 'Boogaloo', cursive;
+    font-weight: 400;
+    font-size: 12vw;
+    line-height: 1em;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    color: #fcb048;
+}
+
+.welcome p{
+    line-height: 1.5em; 
+}
+
+.recipe
+{
+    background: #fcaf47 url(../images/recipe-bg.svg) no-repeat center bottom;
+   
+}
+
+figure
+{
+    position: relative;
+}
+
+figure img
+{
+    border-radius: 20px;
+}
+
+figure span
+{
+    position: absolute;
+    border-radius: 20px;
+    width:100%;
+    height: 100%;
+    top:0;
+    left:0;
+
+    background: rgb(50,29,12);
+    background: linear-gradient(180deg, rgba(50,29,12,0.3) 50%, rgba(50,29,12,1) 100%);
+    padding: 15px;
+
+    display: flex;
+    align-items: flex-end;
+
+    font-family: 'Boogaloo', cursive;
+    font-weight: 400;
+    font-size: 6.5vw;
+    line-height: 1em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+::placeholder
+{
+    color:#fcaf47;
+}
+
+input
+{
+    width:100%;
+    margin: 0 0 10px 0;
+    padding: 12px 20px;
+    border: 1px solid #61c8d7;
+    color:#fcaf47;
+    border-radius: 10px;
+}
+
+input[type=submit]
+{
+    width:120px;
+    background-color:#61c8d7;
+    color:white;
+    padding: 8px 20px;
+    border: none;
+    border-radius:10px;
+    cursor: pointer;
+}
+
+
